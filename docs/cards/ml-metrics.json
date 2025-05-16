@@ -1,0 +1,42 @@
+{
+    "model_name": "string",
+    "dataset_name": "string",
+    "metrics": {
+      "training": {
+        "epochs": "integer",
+        "values": [
+          {
+            "epoch": "integer",
+            "metric_01_name": "number",
+            "metric_02_name": "number",
+            "metric_03_name": "number"
+          }
+        ]
+      },
+      "validation": {
+        "epochs": "integer",
+        "values": [
+          {
+            "epoch": "integer",
+            "epoch": "integer",
+            "metric_01_name": "number",
+            "metric_02_name": "number",
+            "metric_03_name": "number"
+          }
+        ]
+      },
+      "testing": {
+        "epoch": "integer",
+            "metric_01_name": "number",
+            "metric_02_name": "number",
+            "metric_03_name": "number"
+      }
+    },
+    "timestamp": "string (ISO 8601 format)",
+    "additional_info": {
+      "key_01": "string",
+      "key_02": "number",
+      "key_03": "integer"
+    }
+  }
+  
